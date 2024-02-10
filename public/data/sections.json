@@ -10,15 +10,16 @@
       },
 
       "headline": {
-        "title": "<span class='text-primary'>About</span> us",
+        "title": "<span class='text-primary'>About</span> Me",
         "subtitle": "Get to know more about the project!"
       },
 
       "items": [
         {
-          "imageUrl": "images/logo/logo.png",
+          "imageUrl": "images/logo/me_cropped.png",
+
           "description": [
-            "<b>Arzel</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+            "<b>Ako si </b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
           ]
