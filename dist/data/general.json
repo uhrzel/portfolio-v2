@@ -1,0 +1,63 @@
+{
+    "settings": {
+        "preloaderEnabled": true
+    },
+
+    "navbar": {
+        "brand": "<span class='text-primary'>Foxy</span> Agency",
+        "logo": "images/logo/agency-logo-small.png"
+    },
+
+    "header": {
+        "title": "Foxy Agency Template",
+        "subtitle": "Made by Ryan Balieiro with Vue3 and Bootstrap 5.0",
+        "imageUrl": "images/logo/agency-logo.png",
+        "button": {
+            "label": "Find Out More",
+            "icon": "fa fa-search",
+            "targetSection": "about"
+        }
+    },
+
+    "footer": {
+        "left": {
+            "title": "About",
+            "faIcon": "fa fa-pen me-1 d-none d-md-inline",
+            "description": "This template is maintained by Ryan Balieiro and is based on the <a href='https://getbootstrap.com/'>Bootstrap</a> framework and the <a href='http://vuejs.org/'>Vue</a> framework.",
+            "items": [
+                {"label": "Privacy Policy", "routerHref": "policy"},
+                {"label": "License", "routerHref": "license"},
+                {"label": "Github Repo", "href": "https://github.com/ryanbalieiro/foxy-template"}
+            ],
+            "displayItemsAsButtons": false
+        },
+
+        "middle": {
+            "title": "Connect With Us",
+            "description": null,
+            "items": [
+                {"faIcon": "fa-brands fa-twitter", "href": "https://twitter.com"},
+                {"faIcon": "fa-brands fa-facebook", "href": "https://facebook.com"},
+                {"faIcon": "fa-brands fa-linkedin", "href": "https://linkedin.com"},
+                {"faIcon": "fa-brands fa-spotify", "href": "https://spotify.com"}
+            ],
+            "displayItemsAsButtons": true
+        },
+
+        "right": {
+            "title": "Contact Info",
+            "faIcon": "fa fa-fax me-2",
+            "description": [
+                "999 Vue Developer's Avenue, 4A Suite 32",
+                "Cupertino – CA 01235"
+            ],
+            "items": [
+                {"faIcon": "fa fa-phone", "label": "(555) 555-1234", "href": "tel:123456789"},
+                {"faIcon": "fa fa-envelope", "label": "contact@foxyagency.com", "href": "mailto:foxy@agency.com"}
+            ],
+            "displayItemsAsButtons": false
+        },
+
+        "copyright": "Copyright ©2023 <a href='ryanbalieiro.com'>Ryan Balieiro</a> – Distributed Under the MIT License"
+    }
+}

@@ -1,0 +1,71 @@
+body {
+    background-color: $dark;
+}
+
+.no-scroll {
+    overflow-y: hidden!important;
+}
+
+.container-xxl {
+    @include generate-dynamic-styles-with-hash((
+        xxxl:(padding: 0),
+        xxl:(padding: 0 4rem),
+        xl:(padding: 0 2rem),
+        lg:(padding: 0 2rem),
+        md:(padding: 0 2.25rem),
+        sm:(padding: 0 1.75rem),
+    ));
+
+    @media (max-width: 380px) {
+        padding: 0 1.35rem;
+    }
+}
+
+.bg-promo-image {
+    position: absolute;
+    height: calc(100% + 4rem);
+    width: 100%;
+    z-index: -1;
+
+    background-image: url('../assets/header-bg.jpeg');
+    background-position: center;
+    background-size: cover;
+
+
+    .bg-promo-image-overlay {
+        position: relative;
+        height: 100%;
+        width: 100%;
+
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(30, 30, 30, 0.73)), color-stop(70%, rgba(30, 30, 30, 0.86)), color-stop(80%, rgba(30, 30, 30, 0.99)), to(rgba(30, 30, 30, 1)));
+        background-image: linear-gradient(180deg, rgba(30, 30, 30, 0.73) 0%, rgba(30, 30, 30, 0.86) 30%, rgba(30, 30, 30, 0.99) 60%, rgba(30, 30, 30, 1) 100%);
+    }
+
+    .bg-promo-image-overlay-faded {
+        position: relative;
+        height: 100%;
+        width: 100%;
+
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(30, 30, 30, 0.83)), color-stop(70%, rgba(30, 30, 30, 0.93)), color-stop(80%, rgba(30, 30, 30, 1)), to(rgba(30, 30, 30, 1)));
+        background-image: linear-gradient(180deg, rgba(30, 30, 30, 0.83) 0%, rgba(30, 30, 30, 0.93) 30%, rgba(30, 30, 30, 0.99) 60%, rgba(30, 30, 30, 1) 100%);
+    }
+}
+
+.trace-shadow {
+    box-shadow: rgba(0, 0, 0, 0.1) 5px 5px, rgba(10, 10, 10, 0.15) 10px 10px;
+}
+
+::-moz-selection {
+    color: $dark;
+    background: $primary;
+}
+
+::selection {
+    color: $dark;
+    background: lighten($primary, 30%);
+}
+
+::-webkit-scrollbar {max-width: 6px; max-height: 4px}
+::-webkit-scrollbar-track {-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3)}
+::-webkit-scrollbar-thumb {background: lighten($dark, 30%);-webkit-box-shadow: rgba(155,155,155)}
+::-webkit-scrollbar-thumb:window-inactive {background: lighten($dark, 10%);}

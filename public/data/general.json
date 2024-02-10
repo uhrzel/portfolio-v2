@@ -1,0 +1,74 @@
+{
+  "settings": {
+    "preloaderEnabled": true
+  },
+
+  "navbar": {
+    "brand": "<span class='text-primary'>Web</span> Dev",
+    "logo": "images/logo/logo.png"
+  },
+
+  "header": {
+    "title": "Web Dev",
+    "subtitle": "Sub title",
+    "imageUrl": "images/logo/logo.png",
+    "button": {
+      "label": "Find Out More",
+      "icon": "fa fa-search",
+      "targetSection": "about"
+    }
+  },
+
+  "footer": {
+    "left": {
+      "title": "About",
+      "faIcon": "fa fa-pen me-1 d-none d-md-inline",
+      "description": "This template is maintained by JM Alibong and is based on the <a href='https://getbootstrap.com/'>Bootstrap</a> framework and the <a href='http://vuejs.org/'>Vue</a> framework.",
+      "items": [
+        { "label": "Privacy Policy", "routerHref": "policy" },
+        { "label": "License", "routerHref": "license" },
+        {
+          "label": "Facebook",
+          "href": "https://web.facebook.com/kate.shufuhh"
+        }
+      ],
+      "displayItemsAsButtons": false
+    },
+
+    "middle": {
+      "title": "Connect With Us",
+      "description": null,
+      "items": [
+        { "faIcon": "fa-brands fa-twitter", "href": "https://twitter.com" },
+        { "faIcon": "fa-brands fa-facebook", "href": "https://facebook.com" },
+        { "faIcon": "fa-brands fa-linkedin", "href": "https://linkedin.com" },
+        { "faIcon": "fa-brands fa-spotify", "href": "https://spotify.com" }
+      ],
+      "displayItemsAsButtons": true
+    },
+
+    "right": {
+      "title": "Contact Info",
+      "faIcon": "fa fa-fax me-2",
+      "description": [
+        "999 Vue Developer's Avenue, 4A Suite 32",
+        "Cupertino – CA 01235"
+      ],
+      "items": [
+        {
+          "faIcon": "fa fa-phone",
+          "label": "(555) 555-1234",
+          "href": "tel:123456789"
+        },
+        {
+          "faIcon": "fa fa-envelope",
+          "label": "contact@webdevagency.com",
+          "href": "mailto:webdev@agency.com"
+        }
+      ],
+      "displayItemsAsButtons": false
+    },
+
+    "copyright": "Web Design 2023 <a href='www.facebook.com'>WebDev</a> – Distributed Under the MIT License"
+  }
+}
