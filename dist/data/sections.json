@@ -1,0 +1,165 @@
+{
+  "sections": [
+    {
+      "id": "about",
+      "component": "AboutSection",
+      "class": "agency-section",
+      "navbar": {
+        "label": "About",
+        "faIcon": "fa-solid fa-file"
+      },
+
+      "headline": {
+        "title": "<span class='text-primary'>About</span> Me",
+        "subtitle": "Get to know more about the project!"
+      },
+
+      "items": [
+        {
+          "imageUrl": "images/logo/me_cropped.png",
+
+          "description": [
+            "<b>Ako si </b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+          ]
+        }
+      ],
+
+      "footer": {
+        "divider": true,
+        "title": "just do it <span class='text-primary'>subscribe!</span>",
+        "description": "Do you want to navigate to my account? ",
+        "smallDescription": false,
+        "button": {
+          "label": "Facebook",
+          "faIcon": "fa-solid fa-download"
+        }
+      }
+    },
+
+    {
+      "id": "Skills",
+      "component": "ServicesSection",
+      "class": "agency-section-primary",
+      "navbar": {
+        "label": "Skills",
+        "faIcon": "fa-solid fa-wrench"
+      },
+
+      "headline": {
+        "title": "My <span class='text-primary'>Skills</span>",
+        "subtitle": "This section are my skills!"
+      },
+
+      "items": [
+        {
+          "title": "Vue3",
+          "faIcon": "fa-brands fa-vuejs",
+          "description": "This design is built using the Vue3 JavaScript framework, providing a modern and efficient development experience."
+        },
+
+        {
+          "title": "Responsive Design",
+          "faIcon": "fa-solid fa-laptop",
+          "description": "This is designed to adapt seamlessly to various screen sizes, providing a consistent user experience across devices."
+        },
+
+        {
+          "title": "Minimalist",
+          "faIcon": "fa-solid fa-wand-magic",
+          "description": "This features a clean and simple design, with a focus on essential elements, resulting in a modern and elegant look."
+        },
+
+        {
+          "title": "Fully Customizable",
+          "faIcon": "fa-solid fa-hand-sparkles",
+          "description": "This can be easily customized to match your brand's visual identity and requirements, giving you full control over the design and functionality."
+        },
+
+        {
+          "title": "Programming",
+          "faIcon": "fa-solid fa-code",
+          "description": "This skills was enchance my logic when it comes to designing a patterns and website."
+        },
+
+        {
+          "title": "Lightweight",
+          "faIcon": "fa-solid fa-feather",
+          "description": "This is optimized for performance and speed, with a minimal codebase and minimal dependencies, resulting in a faster load time and improved user experience."
+        }
+      ],
+
+      "footer": {}
+    },
+
+    {
+      "id": "TodoList",
+      "component": "PortfolioSection",
+      "class": "agency-section",
+      "navbar": {
+        "label": "Projects",
+        "faIcon": "fa-solid fa-tasks"
+      },
+      "headline": {
+        "title": "Manage Your <span class='text-primary'>Todo List</span>",
+        "subtitle": "Keep track of your tasks and stay organized!"
+      },
+      "items": [],
+      "footer": {
+        "divider": true,
+
+        "smallDescription": true
+      },
+      "modal": {
+        "title": "Add New Task",
+        "fields": [
+          {
+            "label": "Image",
+            "type": "file",
+            "model": "imageFile"
+          },
+          {
+            "label": "Title",
+            "type": "text",
+            "placeholder": "Enter task title",
+            "model": "title"
+          },
+          {
+            "label": "Description",
+            "type": "textarea",
+            "placeholder": "Enter task description",
+            "model": "description"
+          }
+        ],
+        "actions": {
+          "submit": {
+            "label": "Add Task",
+            "action": "addTask"
+          },
+          "cancel": {
+            "label": "Cancel",
+            "action": "closeModal"
+          }
+        }
+      }
+    },
+
+    {
+      "id": "contact",
+      "component": "ContactSection",
+      "class": "agency-section-dark",
+      "navbar": {
+        "label": "Contact",
+        "faIcon": "fa-solid fa-envelope"
+      },
+
+      "headline": {
+        "title": "Contact Us",
+        "subtitle": "Don't hesitate to reach us out!"
+      },
+
+      "footer": {}
+    }
+  ]
+}
